@@ -297,7 +297,9 @@ Inference result is saved in current path, you can find result like this in acc.
 
 ### Inference Performance
 
-| ------------------- | --------------------------- | 
+
+| Parameters          | Ascend                      | 
+| ------------------- | --------------------------- |
 | Model Version       | DeepFM                      | 
 | Resource            | Ascend 910; OS Euler2.8     | 
 | Uploaded Date       | 06/20/2021 (month/day/year) | 
@@ -307,7 +309,6 @@ Inference result is saved in current path, you can find result like this in acc.
 | outputs             | AUC                         | 
 | AUC                 | 1pc: 80.90%;                | 
 | Model for inference | 87.65M (.ckpt file)         | 
-
 # [Description of Random Situation](#contents)
 
 We set the random seed before training in train.py.
